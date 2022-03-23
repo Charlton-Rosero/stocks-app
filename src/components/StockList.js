@@ -29,7 +29,8 @@ function StockList(){
     //     }
         
     //     for(let i=0; i<companies.length; i++){
-    //         fetchData(companies[i])
+    //         fetchData(companies[i])     // This is a BIG NO NO
+                                           // use other methods
     //     }
 
     // },[]) 
