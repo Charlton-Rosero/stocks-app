@@ -1,17 +1,20 @@
-import fetchData from "./constants";
+import { CLIENT_URL } from "../services/constants"
 import { useEffect, useState } from "react";
-import { useNavigate } from "react-router-dom";
+
 
 function Search() {
-
-
-    
+  const [stock, setStock] = useState("");
+  const [stockData, setStockData] = useState({});
 
 
   return (
+
     <div>
+     
     </div>
-  );
+
+  )
+
 }
 
 export default Search;
