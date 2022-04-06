@@ -8,9 +8,7 @@ import Stock from "./Stock";
 function StockList(){
 
     const[stocks, setStocks] = useState ([])
-    // const[stocks2, setStocks2] = useState ([])
-    // const[stocks3, setStocks3] = useState ([])
-    // const[stocks4, setStocks4] = useState ([])
+   
  
     const TOKEN = "/quote?token=sk_f5503c07f3c040148a24c3f9ef66624c"
     const companies = ['aapl','fb','snap','spy']
